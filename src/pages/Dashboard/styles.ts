@@ -21,6 +21,10 @@ export const CardContainer = styled.section`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 32px;
   margin-top: -150px;
+
+  @media (max-width: 768px) {
+    overflow-x: scroll;
+  }
 `;
 
 export const Card = styled.div`
